@@ -18,7 +18,7 @@ class Weatherscreen extends StatefulWidget {
 class _WeatherscreenState extends State<Weatherscreen> {
   Future getCurrentWeather() async {
     try {
-      String cityName = 'London';
+      String cityName = 'Udaipur';
 
       final res = await http.get(
         Uri.parse(
